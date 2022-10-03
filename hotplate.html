@@ -4,8 +4,16 @@
 	</head>
 	<body style="font-family:'Courier New'">
 		<link rel="stylesheet" href="main.css" />
-		<h1>...</h1>
-		<div id="js_thatArray"></div>
+
+		<div class="content">
+			<h1>The Hotplate</h1>
+			<p>You have a 16x16 grid of which the 4 centermost cells are always 100 degrees and the cornermost cells are always 0 degrees. All other cells start at 50 degrees.</p>
+			<p>Each turn the temperature of each cell (aside from the 4 hot and 4 cold) changes to be the average of the 4 adjacent cells left, right, up, and down.</p>
+			<p>The goal is to determine how many turns it takes until not a single cell has changes more than 0.001 degrees and then print out the grid.</p>
+			<br>
+			<p>After calculations:</p>
+		</div>
+		<div id="js_thatArray" class="container"></div>
 		<script type="text/javascript" src="main.js"></script>
 	</body>
 </html>
